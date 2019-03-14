@@ -32,12 +32,11 @@ public class Book {
         books[3] = "Название " + "\"" + bookName.getTitle() + "\"" + "; Автор " + authors[1].getName();
         bookName.setTitle("Зелёный слоник");
         authors[0].setName("Пупкин");
-        books[4] = "Название " + "\"" + bookName.getTitle() + "\"" + "; Авторы " + authors[0].getName() +", "+ authors[1].getName();
+        books[4] = "Название " + "\"" + bookName.getTitle() + "\"" + "; Авторы " + authors[0].getName() + ", " + authors[1].getName();
 
         for (String ss : books) {
             System.out.println(ss);
         }
-
     }
 
     public String getTitle() {
