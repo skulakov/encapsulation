@@ -4,7 +4,7 @@
  * Книгу могут написать много авторов 
  * (в классе Book есть поле Author[] authors) 
  * Создайте конструкторы, get/set (где необходимо сделайте проверку), 
- * также метод toString()  
+ * также метод toString()
  * Создайте массив из 5 книг
  */
 package javabooks;
@@ -37,7 +37,7 @@ public class Book {
         // Объявляем массив из 5 книг
         String books[] = new String[5];
         
-        bookName.setTitle("Баба Яга в тылк врага");
+        bookName.setTitle("Баба Яга в тылу врага");
         books[0] = "Название " + "\"" + bookName.getTitle() + "\"" + "; Автор " + authors[0].getName();
         bookName.setTitle("На троих");
         books[1] = "Название " + "\"" + bookName.getTitle() + "\"" + "; Автор " + authors[1].getName();
