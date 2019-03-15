@@ -19,6 +19,7 @@ public class Book {
 // Экзэмпляр класса Book 
         Book bookName = new Book();
 // Экзэмпляр класса Author 
+// Заполняем массив
         Author[] authors = {
             new Author("Петров"),
             new Author("Иванов"),
